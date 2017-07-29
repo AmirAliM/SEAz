@@ -21,4 +21,21 @@ class Test
             System.out.println("Sum: Failed, expected = " + expected + ", result = " + result);
         }
     }
+	private static void testSubtract()
+    {
+        int a = 50;
+        int b = 6;
+        int expected = 44;
+        BasicMath bm = new BasicMath();
+        int result = bm.subtract(a, b);
+        if (result == expected)
+        {
+            System.out.println("Subtract: OK");
+        }
+        else
+        {
+            System.out.println("Subtract: Failed, expected = " + expected + ", result = " + result);
+        }
+    }
+	
 }
