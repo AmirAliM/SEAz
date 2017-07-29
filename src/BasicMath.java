@@ -8,5 +8,9 @@ class BasicMath
 
     // TODO: subtract
 	// TODO: multiply
-	// TODO: divide
+    public int divide(int a, int b)
+    {
+        return a / b;
+    }
+
 }
